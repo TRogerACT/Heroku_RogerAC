@@ -1,9 +1,9 @@
 package idat.controller;
 
 import org.springframework.web.bind.annotation.*;
-import roger.idat.entity.Usuario;
-import roger.idat.service.UsuarioService;
-import roger.idat.util.GenericResponse;
+import idat.entity.Usuario;
+import idat.service.UsuarioService;
+import idat.util.GenericResponse;
 
 import javax.servlet.http.HttpServletRequest;
 

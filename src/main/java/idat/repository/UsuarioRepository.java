@@ -2,7 +2,7 @@ package idat.repository;
 
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
-import roger.idat.entity.Usuario;
+import idat.entity.Usuario;
 
 import java.util.Optional;
 

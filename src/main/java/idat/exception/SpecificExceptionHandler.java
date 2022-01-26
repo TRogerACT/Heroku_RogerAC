@@ -6,10 +6,10 @@ import org.springframework.core.annotation.Order;
 import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
-import roger.idat.util.GenericResponse;
-import roger.idat.util.Global;
+import idat.util.GenericResponse;
+import idat.util.Global;
 
-import static roger.idat.util.Global.*;
+import static idat.util.Global.*;
 
 //para guardar las imagenes sus configuraciones
 

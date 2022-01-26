@@ -1,14 +1,14 @@
 package idat.service;
 
 import org.springframework.stereotype.Service;
-import roger.idat.entity.Cliente;
-import roger.idat.repository.ClienteRepository;
-import roger.idat.util.GenericResponse;
+import idat.entity.Cliente;
+import idat.repository.ClienteRepository;
+import idat.util.GenericResponse;
 
 import javax.transaction.Transactional;
 import java.util.Optional;
 
-import static roger.idat.util.Global.*;
+import static idat.util.Global.*;
 
 @Service
 @Transactional

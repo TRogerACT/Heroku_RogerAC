@@ -2,7 +2,7 @@ package idat.repository;
 
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
-import roger.idat.entity.Cliente;
+import idat.entity.Cliente;
 
 public interface ClienteRepository extends CrudRepository<Cliente, Integer> {
     @Query(value = "(SELECT EXISTS(SELECT id FROM cliente WHERE num_doc=:dni))", nativeQuery = true)

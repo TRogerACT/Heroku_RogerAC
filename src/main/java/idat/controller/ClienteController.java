@@ -1,9 +1,9 @@
 package idat.controller;
 
 import org.springframework.web.bind.annotation.*;
-import roger.idat.entity.Cliente;
-import roger.idat.service.ClienteService;
-import roger.idat.util.GenericResponse;
+import idat.entity.Cliente;
+import idat.service.ClienteService;
+import idat.util.GenericResponse;
 
 import javax.validation.Valid;
 

@@ -6,15 +6,15 @@ import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-import roger.idat.entity.File;
-import roger.idat.repository.FileRepository;
-import roger.idat.util.GenericResponse;
+import idat.entity.File;
+import idat.repository.FileRepository;
+import idat.util.GenericResponse;
 
 import javax.servlet.http.HttpServletRequest;
 import java.io.IOException;
 import java.util.HashMap;
 
-import static roger.idat.util.Global.*;
+import static idat.util.Global.*;
 
 
 @Service

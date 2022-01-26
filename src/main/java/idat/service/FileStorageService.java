@@ -5,9 +5,9 @@ import org.springframework.core.io.UrlResource;
 import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
 import org.springframework.web.multipart.MultipartFile;
-import roger.idat.config.FileStorageProperties;
-import roger.idat.exception.FileStorageException;
-import roger.idat.exception.MyFileNotFoundException;
+import idat.config.FileStorageProperties;
+import idat.exception.FileStorageException;
+import idat.exception.MyFileNotFoundException;
 
 import java.io.IOException;
 import java.net.MalformedURLException;

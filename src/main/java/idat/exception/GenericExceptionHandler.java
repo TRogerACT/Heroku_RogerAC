@@ -2,8 +2,8 @@ package idat.exception;
 
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
-import roger.idat.util.GenericResponse;
-import roger.idat.util.Global;
+import idat.util.GenericResponse;
+import idat.util.Global;
 
 @RestControllerAdvice
 public class GenericExceptionHandler {

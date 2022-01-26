@@ -3,9 +3,9 @@ package idat.controller;
 import org.springframework.core.io.Resource;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import roger.idat.entity.File;
-import roger.idat.service.FileService;
-import roger.idat.util.GenericResponse;
+import idat.entity.File;
+import idat.service.FileService;
+import idat.util.GenericResponse;
 
 import javax.servlet.http.HttpServletRequest;
 
