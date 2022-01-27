@@ -3,7 +3,7 @@ package idat;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
-import roger.idat.config.FileStorageProperties;
+import idat.config.FileStorageProperties;
 
 
 @EnableConfigurationProperties({FileStorageProperties.class})
